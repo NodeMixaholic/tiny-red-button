@@ -12,6 +12,6 @@ if %errorlevel%==0 (
 title TINY RED BUTTON - by Sparksammy
 echo TINY RED BUTTON IS NOW KILLING ALL NONCRITICAL TASKS AND RESTARTING EXPLORER
 echo by Sparksammy
-taskkill /f /fi “status eq not responding”
-taskkill /f /fi “status eq running”
+taskkill /f /fi "status eq not responding"
+taskkill /f /fi "status eq running"
 echo Done!
